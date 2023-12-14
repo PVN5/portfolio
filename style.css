@@ -1,19 +1,73 @@
 body {
-	background-color: blue;
+	background-color: grey;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
 }
-
 nav {
 	background-color: beige;
 	width: 100%;
 	border-radius: 5px;
 	border-color: black;
+	overflow:hidden; 	
+	text-align: center;
 	
 }
-.nav li {
-	display: inline-block;
-	width: 30%;
-	margin-left: 50px;
+nav a {
+	float: left;
+	width: 50%; 
+	font-size: 16px;
+	color: grey;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 	font-weight: bold;
-	font-size: larger;
+  }
+
+  .dropdown{
+	float: left;
+	overflow: hidden;
+  }
+  .dropdown .drpdbutton {
+
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: grey;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  }
+  main {
+	width: 100%;
+	margin:0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	border:0;
 }
+.section {
+	flex: 45%;
+	padding: 0;
+	margin: 20px;
+	border: 0;
+	background-color:beige;
+	border-radius: 10px;
+  }
+
+  .section p{
+	padding : 20px;
+  }
+  .section figure {
+	text-align: center;
+  }
+
+  .section figure img{
+	width:20%;
+  }
+
+
+
 /*etcetrea verder werken twee kolommen*/
+/* ik wil dat de nav text vanuit center alogned is. en foto + test bij de proecten + dat je daarhee wordt genavigeerd.*/
