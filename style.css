@@ -17,6 +17,13 @@ nav{
 	display: flex;
 
 }
+
+footer  {
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	
+}
 .container {
 	flex: 50%;
 	text-align: center;
@@ -83,8 +90,34 @@ nav a {
   .section figure img{
 	width:20%;
   }
+.projects{
+	padding: 0;
+	margin: 20px;
+	border: 0;
+	background-color:beige;
+	border-radius: 10px;
+}
+.projects figure img{
+	max-width:100%;
+}
+.projects p {
+	padding: 30px 40px ;
+	margin: auto; 
+}
+h2 {
+	margin: auto;
+	text-align: center;
+}
+#fotorlando {
+	width: 100%;
+}
 
+#contact a {
+color: black;
+}
 
-
-/*etcetrea verder werken twee kolommen*/
-/* ik wil dat de nav text vanuit center alogned is. en foto + test bij de proecten + dat je daarhee wordt genavigeerd.*/
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: black;
+	}
+}
