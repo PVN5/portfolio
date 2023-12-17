@@ -9,16 +9,22 @@
     <body>
         <header>
             <nav>
-                <div class="dropdown">
-                    <button class="drpdbutton">Projects
-                    <i class="fa fa-caret-down"></i>
+                
+                
+                <div class="container" id="dropdown" >
+                    <button id="drpdbutton"  onclick="showlist()" >Projects
+                        <i class="fa fa-caret-down"></i> 
                     </button>
-                    <div class="drpdcontent">
+                <div id="drpdcontent">
                     <a href="#project1">project 1</a>
-                    <a href="#project2">project 2</a>
-                     </div>
+                    <br>
+                     <a href="#project2">project 2</a>
                 </div>
+            </div>
+
+                <div class="container">
                 <a href="#contact">Contact</a>
+            </div>
             </nav>
         </header>
         <main>
@@ -37,19 +43,21 @@
                     Probeer het mooi en overzichtelijk te krijgen. 
                 </p>
             </div>
-            <div class="section" id="project 1">
+            <div class="section" id="project1">
                 <img>
                 
 
             </div>
-            <div class="section" id="project 2">
+            <div class="section" id="project2">
+                <p id="demo"></p>
 
             </div>
         </main>
-       <!-- <script src="script.js"></script> --> 
+       
+       
        <footer> 
-
        </footer>
+       <script src='script.js'></script> 
     </body>
     
 </html>
